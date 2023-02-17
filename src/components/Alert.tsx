@@ -37,7 +37,7 @@ export const AlertComponent = ({
     return (
       <div
         className={`
-        flex place-self-center 
+        flex place-self-center
         bg-[#1E2127]
         lg:flex-row lg:w-full 
         ${width ? `w-[${width}px]` : "w-full"}
