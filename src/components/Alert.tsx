@@ -46,7 +46,7 @@ export const AlertComponent = ({
       `}
       >
         <div className="flex">
-          <div className="flex flex-row gap-1">
+          <div className="flex flex-row ">
             {icon ? (
               icon
             ) : (
