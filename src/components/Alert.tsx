@@ -60,7 +60,7 @@ export const AlertComponent = ({
               {title}
             </span>
           </div>
-          <span className="ml-6">{content}</span>
+          <span className="ml-auto">{content}</span>
         </div>
 
         <svg
