@@ -42,7 +42,7 @@ export const AlertComponent = ({
         lg:flex-row lg:w-full 
         ${width ? `w-[${width}px]` : "w-full"}
         ${height ? `h-[${height}px]` : "h-full"}
-        rounded-lg ${className}
+        rounded-md ${className}
       `}
       >
         <div className="flex">
