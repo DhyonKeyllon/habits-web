@@ -57,7 +57,7 @@ export const AlertComponent = ({
               />
             )}
             <span
-              className={`flex text-[${colors[alertType]}] text-[1rem] self-center`}
+              className={`flex text-[${colors[alertType]}] text-[1re] self-center`}
             >
               {title}
             </span>
