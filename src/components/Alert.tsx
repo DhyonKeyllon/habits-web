@@ -45,7 +45,7 @@ export const AlertComponent = ({
         rounded-lg ${className}
       `}
       >
-        <div className="flex flex-col">
+        <div className="flex">
           <div className="flex flex-row gap-2">
             {icon ? (
               icon
