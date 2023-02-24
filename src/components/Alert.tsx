@@ -37,7 +37,7 @@ export const AlertComponent = ({
     return (
       <div
         className={`
-        flex justify-self-center place-self-center self-center w-[400px]
+        flex  place-self-center self-center w-[400px]
         bg-[#1E2127]
         lg:flex-row lg:w-full 
         ${width ? `w-[${width}px]` : "w-full"}
@@ -56,9 +56,7 @@ export const AlertComponent = ({
                 width={iconSize}
               />
             )}
-            <span
-              className={`flex text-[${colors[alertType]}] text-[1re] self-center`}
-            >
+            <span className={`flex text-[${colors[alertType]}] self-center`}>
               {title}
             </span>
           </div>
