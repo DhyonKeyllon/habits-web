@@ -62,7 +62,7 @@ export const AlertComponent = ({
               {title}
             </span>
           </div>
-          <span className="text-[0.875rem] ml-6">{content}</span>
+          <span className="ml-6">{content}</span>
         </div>
 
         <svg
