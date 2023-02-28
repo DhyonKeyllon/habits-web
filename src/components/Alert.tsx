@@ -40,8 +40,6 @@ export const AlertComponent = ({
         flex justify-self-center place-self-center self-center w-[400px]
         bg-[#1E2127]
         lg:flex-row lg:w-full 
-        md:w-[32.125rem] 
-        sm:w-[31.25rem]
         items-center py-4 px-6 gap-2 
         ${width ? `w-[${width}px]` : "w-full"}
         ${height ? `h-[${height}px]` : "h-full"}
