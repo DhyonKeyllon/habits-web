@@ -14,16 +14,6 @@ type AlertComponentProps = {
   content?: string;
 };
 
-/**
- * React component for displaying alerts
- *
- * @param alertType - Type of alert
- * @param children - Content of alert
- * @param width - Width of alert in px
- * @param height - Height of alert in px
- * @param className - Additional class names
- * @param iconSize - Size of AlertIcon in px
- */
 export const AlertComponent = ({
   alertType,
   title,
