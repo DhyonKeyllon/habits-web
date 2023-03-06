@@ -37,7 +37,6 @@ export const AlertComponent = ({
   const [isOpen, setIsOpen] = useState(true);
 
   const colors = {
-    SUCCESS: "#54C975",
     WARNING: "#C9A154",
     ERROR: "#C9546A",
     INFORMATION: "#548AC9",
