@@ -1,6 +1,5 @@
 import { Header } from "./components/Header";
 import { SummaryTable } from "./components/SummaryTable";
-import copyIcon from "./assets/copy-icon.svg";
 // import { Habit } from "./components/Habit";
 
 import "./styles/global.css";
